@@ -1,7 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//Sources Cited:
+//Unity Documentation for World Point: https://docs.unity3d.com/ScriptReference/Camera.ScreenToWorldPoint.html
 public class Drag : MonoBehaviour
 {
     private bool dragging = false;

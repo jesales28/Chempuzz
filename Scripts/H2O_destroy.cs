@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//Sources Cited:
+// Unity Documentation for wait for seconds: https://docs.unity3d.com/ScriptReference/WaitForSeconds.html
+// Unity Documentation for Awake(): https://docs.unity3d.com/ScriptReference/MonoBehaviour.Awake.html
 public class H2O_destroy : MonoBehaviour
 {
     public GameObject molecule;
