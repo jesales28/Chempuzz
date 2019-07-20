@@ -10,12 +10,10 @@ public class CarbonConnector : MonoBehaviour
     public GameObject C2_molecule;
     public Transform MoleculeSpawner;
     public bool flag;
-    public static int atoms;
 
     // Start is called before the first frame update
     void Start()
     {
-        atoms = 1;
 
         flag = false;
         

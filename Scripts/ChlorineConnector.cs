@@ -16,11 +16,9 @@ public class ChlorineConnector : MonoBehaviour
     public GameObject CCl4_molecule;
     public Transform MoleculeSpawner;
     public bool flag;
-    public static int atoms;
     void Start()
     {
         flag = false;
-        atoms = 1;
     }
 
     void OnCollisionEnter2D(Collision2D collide){
