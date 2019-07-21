@@ -19,6 +19,7 @@ public class SodiumConnector : MonoBehaviour
         flag = false;
         
     }
+    //Collisions between atoms destroys opposite atom/creates new ones
     void OnCollisionEnter2D(Collision2D c){
         if(c.gameObject.tag == "Chlorine"){
             c.gameObject.SetActive(false);

@@ -23,6 +23,7 @@ public class HUDScript : MonoBehaviour
 
     void Start()
     {
+        //Sets panel for next level
         Panel = GameObject.FindGameObjectWithTag("Panel");
         Panel.gameObject.SetActive(false);
         atomCheck = false;
@@ -30,7 +31,7 @@ public class HUDScript : MonoBehaviour
         comma = ", ";
         status = "";
         title = "Molecules to Create: ";
-        //Molecules
+        //Molecules for checklist, add molecules on checklist for correct answer
         string H2O = "water";
         string NaCl = "Sodium Chloride";
         string CCl4 = "Tetrachloromethane";
@@ -83,8 +84,8 @@ public class HUDScript : MonoBehaviour
     void Update()
     {
         
-
-        atomCount.text = atoms.ToString();
+        //Test function to show count of atoms
+       // atomCount.text = atoms.ToString();
         //then for each molecule created when the instantiate function creates the clone
         //subtract from the variable atoms the amount of atoms it would take to create the molecule
 

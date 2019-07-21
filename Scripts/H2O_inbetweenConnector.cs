@@ -16,7 +16,7 @@ public class H2O_inbetweenConnector : MonoBehaviour
     {
         flag = false;
     }
-
+    //If Hydrogen hits OH it creates H2O
     void OnCollisionEnter2D(Collision2D collide)
     {
         if(collide.gameObject.tag == "Hydrogen"){

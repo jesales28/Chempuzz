@@ -20,7 +20,7 @@ public class ChlorineConnector : MonoBehaviour
     {
         flag = false;
     }
-
+    //Collisions between atoms destroys opposite atom/creates new ones
     void OnCollisionEnter2D(Collision2D collide){
         if(collide.gameObject.tag == "Sodium"){
             flag = true;
