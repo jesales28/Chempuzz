@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - TitleScreen
+  - Sodium
+  - Chlorine
+  - Hydrogen
+  - Oxygen
+  - Carbon
+  - CH4_inbetween1
+  - CH4_inbetween2
+  - CH4_inbetween3
+  - CH4_molecule
+  - CCl4_inbetween1
+  - CCl4_inbetween2
+  - CCl4_inbetween3
+  - CCl4_molecule
+  - Na2O_inbetween
+  - Na2O_molecule
+  - H2O_molecule
+  - HCL_molecule
+  - NaCl_molecule
+  - OH
+  - C2_molecule
+  - Panel
+  - CO2_inbetween
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Atom
+  - background
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: background
+    uniqueID: 3436433499
+    locked: 0
+  - name: Turtle
+    uniqueID: 271122337
+    locked: 0
+  - name: Atom
+    uniqueID: 1683220277
+    locked: 0
