@@ -12,12 +12,12 @@ public class SodiumConnector : MonoBehaviour
 
     public Transform MoleculeSpawner;
     public bool flag;
-    public static int atoms;
+    
     // Start is called before the first frame update
     void Start()
     {
         flag = false;
-        atoms = 1;
+        
     }
     void OnCollisionEnter2D(Collision2D c){
         if(c.gameObject.tag == "Chlorine"){

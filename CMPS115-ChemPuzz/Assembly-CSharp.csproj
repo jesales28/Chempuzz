@@ -66,6 +66,8 @@
      <Compile Include="Assets\Scripts\HydrogenConnector.cs" />
      <Compile Include="Assets\Scripts\InstructionsScript.cs" />
      <Compile Include="Assets\Scripts\LetsPlayButtonScript.cs" />
+     <Compile Include="Assets\Scripts\Level2Script.cs" />
+     <Compile Include="Assets\Scripts\Level3Script.cs" />
      <Compile Include="Assets\Scripts\MenuManagerScript.cs" />
      <Compile Include="Assets\Scripts\Na2O_inbetweenScript.cs" />
      <Compile Include="Assets\Scripts\OxygenConnector.cs" />

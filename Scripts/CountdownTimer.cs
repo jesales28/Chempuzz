@@ -10,6 +10,8 @@ public class CountdownTimer : MonoBehaviour
     int time = 0;
     private string description = "Time: ";
 
+
+
    /*  [serializeField]*/ public Text countdownText;
 
     // Start is called before the first frame update
@@ -21,13 +23,22 @@ public class CountdownTimer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        currentTime -= 1* Time.deltaTime;
-        time = (int)currentTime;
-        countdownText.text = description + time.ToString("0");
-
+        if(HUDScript.atoms > 0){
+            currentTime -= 1* Time.deltaTime;
+            time = (int)currentTime;
+            countdownText.text = description + time.ToString("0");
+        }
+        if ( HUDScript.atoms == 0)
+        {
+            currentTime = currentTime;
+            time = (int)currentTime;
+            countdownText.text = description + time.ToString("0");
+        }
         if(currentTime <= 0)
         {
             currentTime = 0;
+            Application.LoadLevel("GameOverCP");
+
         }
     }
 }

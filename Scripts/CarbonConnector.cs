@@ -10,16 +10,15 @@ public class CarbonConnector : MonoBehaviour
     public GameObject C2_molecule;
     public Transform MoleculeSpawner;
     public bool flag;
-    public static int atoms;
 
     // Start is called before the first frame update
     void Start()
     {
-        atoms = 1;
 
         flag = false;
         
     }
+    //Collisions between atoms destroys opposite atom/creates new ones with instantiate
     void OnCollisionEnter2D(Collision2D c){
         if(c.gameObject.tag == "Oxygen"){
             c.gameObject.SetActive(false);

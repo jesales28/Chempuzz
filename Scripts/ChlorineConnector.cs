@@ -16,13 +16,11 @@ public class ChlorineConnector : MonoBehaviour
     public GameObject CCl4_molecule;
     public Transform MoleculeSpawner;
     public bool flag;
-    public static int atoms;
     void Start()
     {
         flag = false;
-        atoms = 1;
     }
-
+    //Collisions between atoms destroys opposite atom/creates new ones
     void OnCollisionEnter2D(Collision2D collide){
         if(collide.gameObject.tag == "Sodium"){
             flag = true;

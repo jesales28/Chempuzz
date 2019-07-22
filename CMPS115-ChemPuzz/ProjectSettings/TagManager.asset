@@ -25,6 +25,7 @@ TagManager:
   - NaCl_molecule
   - OH
   - C2_molecule
+  - Panel
   layers:
   - Default
   - TransparentFX

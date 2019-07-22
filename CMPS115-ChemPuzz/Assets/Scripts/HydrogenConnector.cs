@@ -16,11 +16,10 @@ public class HydrogenConnector : MonoBehaviour
     public GameObject CH4_molecule;
     public Transform MoleculeSpawner;
     public bool flag;
-    public static int atoms;
     void Start()
     {
         flag = false;
-        atoms = 1;
+        
     }
 
     void OnCollisionEnter2D(Collision2D collide){

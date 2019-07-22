@@ -10,7 +10,7 @@ public class Drag : MonoBehaviour
     private Vector3 screenPoint;
     private Vector3 offset;
 
-    public float speed = 1000.0f;
+    public float speed = 500.0f;
 
     void OnMouseDown()
     {
@@ -35,7 +35,7 @@ public class Drag : MonoBehaviour
         
         if(Mathf.Round(cursorPosition.x) != Mathf.Round(Input.mousePosition.x) && Mathf.Round(cursorPosition.y) != Mathf.Round(Input.mousePosition.y) ){
             
-            speed = 1000.0f;
+            speed = 500.0f;
             transform.GetComponent<Rigidbody2D>().velocity = direction * speed * Time.deltaTime;
         }else if(Mathf.Round(cursorPosition.x) == Mathf.Round(Input.mousePosition.x) && Mathf.Round(cursorPosition.y) == Mathf.Round(Input.mousePosition.y) ){
             
